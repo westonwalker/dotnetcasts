@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCasts", "DotnetCasts\DotnetCasts.csproj", "{D86EF2B7-EF53-4C79-B5FF-3F46EE92FC26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86EF2B7-EF53-4C79-B5FF-3F46EE92FC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86EF2B7-EF53-4C79-B5FF-3F46EE92FC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86EF2B7-EF53-4C79-B5FF-3F46EE92FC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86EF2B7-EF53-4C79-B5FF-3F46EE92FC26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {421B85E8-3191-49BF-9BB6-CF36FF48E5C5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+﻿@model DotnetCasts.Models.Lesson
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="lg:overflow-hidden text-gray-500 px-4 sm:px-6 bg-gray-800">
+    <div class="mx-auto lg:px-8" style="max-width: 95rem;">
+        <div class="iframe-container">
+            <iframe class="embed-responsive" src="@Model.Link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<div class="lg:overflow-hidden text-gray-500 px-4 sm:px-6">
+    <div class="mx-auto lg:px-8 py-6" style="max-width: 95rem;">
+        <h1 class="text-3xl sm:text-4xl lg:text-4xl leading-none font-bold text-gray-900 tracking-tight">
+            @Model.Title
+        </h1>
+        <div class="inline-flex items-center justify-center mb-4">
+            <p class="text-xs sm:text-md font-medium sm:leading-10">
+                1 Episodes
+            </p>
+            <span class="m-1">•</span>
+            <div class="text-xs sm:text-md font-medium sm:leading-10 inline-flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>@Model.RuntimeDisplayValue()</span>
+            </div>
+        </div>
+        <p class="max-w-4xl text-lg sm:text-xl font-medium sm:leading-10 space-y-6 mb-6">
+            Utility classes help you work within the constraints of a system instead of littering your stylesheets with arbitrary values. They make it easy to be consistent with color choices, spacing, typography, shadows, and
+            everything else that makes up a well-engineered design system.
+        </p>
+    </div>
+</div>
+<style>
+    .iframe-container {
+        overflow: hidden;
+        /* 16:9 aspect ratio */
+        padding-top: 56.25%;
+        position: relative;
+    }
+
+        .iframe-container iframe {
+            border: 0;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+</style>
+<script>
+
+</script>
